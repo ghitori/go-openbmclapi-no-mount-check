@@ -1,0 +1,5 @@
+	if s, ok := sto.(*storage.MountStorage); ok {
+		log.Infof("Skip checking files for %s, Modify by ghitori\n", s)
+		return
+	}
+
